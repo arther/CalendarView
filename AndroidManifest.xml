@@ -5,7 +5,6 @@
           android:versionName="1.0">
     <uses-sdk android:minSdkVersion="10"/>
     <application android:label="@string/app_name">
-        <activity android:name=".CalendarFrameActivity" android:theme="@android:style/Theme.Dialog"/>
         <activity android:name="MainActivity"
                   android:label="@string/app_name">
             <intent-filter>
@@ -13,5 +12,6 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".adapter.DatePickerCalendar"/>
     </application>
 </manifest> 
