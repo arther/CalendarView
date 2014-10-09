@@ -134,7 +134,7 @@ public class CalendarAdapter extends BaseAdapter {
                 context.dismiss();
                 String selected = date.getText().toString();
                 calendar.set(Calendar.DAY_OF_MONTH, Integer.valueOf(selected));
-                onClickListener.onSelect(calendar.get(Calendar.DAY_OF_MONTH), calendar.get(Calendar.MONTH) + 1, calendar.get(Calendar.YEAR));
+                onClickListener.onSelect(calendar.get(Calendar.DAY_OF_MONTH), calendar.get(Calendar.MONTH), calendar.get(Calendar.YEAR));
             }
         });
     }
