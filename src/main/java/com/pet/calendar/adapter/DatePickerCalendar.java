@@ -37,12 +37,12 @@ public class DatePickerCalendar extends Dialog {
         this.onDateSelectListener = onDateSelectListener;
         fromDate = Calendar.getInstance();
         fromDate.set(Calendar.DAY_OF_MONTH, startDay);
-        fromDate.set(Calendar.MONTH, startMonth - 1);
+        fromDate.set(Calendar.MONTH, startMonth);
         fromDate.set(Calendar.YEAR, startYear);
 
         toDate = Calendar.getInstance();
         toDate.set(Calendar.DAY_OF_MONTH, endDay);
-        toDate.set(Calendar.MONTH, endMonth - 1);
+        toDate.set(Calendar.MONTH, endMonth);
         toDate.set(Calendar.YEAR, endYear);
 
     }

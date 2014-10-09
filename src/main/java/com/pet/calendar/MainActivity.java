@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
                     public void onSelect(int day, int month, int year) {
                         String dateText = day + "/" + (month) + "/" + year;
                     }
-                }, calendar.get(Calendar.DAY_OF_MONTH), calendar.get(Calendar.MONTH), calendar.get(Calendar.YEAR), calendar.get(Calendar.DAY_OF_MONTH)+1, calendar.get(Calendar.MONTH), calendar.get(Calendar.YEAR));
+                }, calendar.get(Calendar.DAY_OF_MONTH), calendar.get(Calendar.MONTH), calendar.get(Calendar.YEAR), calendar.get(Calendar.DAY_OF_MONTH)+4, calendar.get(Calendar.MONTH), calendar.get(Calendar.YEAR)+1);
                 datePickerCalendar.show();
             }
         });
